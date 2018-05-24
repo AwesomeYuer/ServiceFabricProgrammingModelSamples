@@ -3,9 +3,67 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00.StatelessServiceApplications", "00.StatelessServiceApplications", "{4D3E7555-0EFE-430E-8DD5-CAA1F17802E1}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Application1", "StatelessServiceApplications\Application1\Application1.sfproj", "{689B7983-5382-4B9F-A454-89F33DFB1271}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stateless1", "StatelessServiceApplications\Stateless1\Stateless1.csproj", "{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.StatelessASP.NETCoreApplications", "02.StatelessASP.NETCoreApplications", "{19791507-35DC-4601-97E1-2E9D2B1C3A89}"
+EndProject
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "Application1", "StatelessASP.NETCoreApplications\Application1\Application1.sfproj", "{0F94AE74-3BB0-4013-B54D-4191310A0DD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web1", "StatelessASP.NETCoreApplications\Web1\Web1.csproj", "{051753C6-321B-450B-80D1-879667B438B3}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Debug|x64.ActiveCfg = Debug|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Debug|x64.Build.0 = Debug|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Debug|x64.Deploy.0 = Debug|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Release|Any CPU.ActiveCfg = Release|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Release|x64.ActiveCfg = Release|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Release|x64.Build.0 = Release|x64
+		{689B7983-5382-4B9F-A454-89F33DFB1271}.Release|x64.Deploy.0 = Release|x64
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Debug|x64.Build.0 = Debug|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6}.Release|x64.Build.0 = Release|Any CPU
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Debug|x64.ActiveCfg = Debug|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Debug|x64.Build.0 = Debug|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Debug|x64.Deploy.0 = Debug|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Release|Any CPU.ActiveCfg = Release|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Release|x64.ActiveCfg = Release|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Release|x64.Build.0 = Release|x64
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7}.Release|x64.Deploy.0 = Release|x64
+		{051753C6-321B-450B-80D1-879667B438B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Debug|x64.Build.0 = Debug|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Release|x64.ActiveCfg = Release|Any CPU
+		{051753C6-321B-450B-80D1-879667B438B3}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{689B7983-5382-4B9F-A454-89F33DFB1271} = {4D3E7555-0EFE-430E-8DD5-CAA1F17802E1}
+		{CEDCF0AB-7195-4ECC-BA5C-1F5BB91F60C6} = {4D3E7555-0EFE-430E-8DD5-CAA1F17802E1}
+		{0F94AE74-3BB0-4013-B54D-4191310A0DD7} = {19791507-35DC-4601-97E1-2E9D2B1C3A89}
+		{051753C6-321B-450B-80D1-879667B438B3} = {19791507-35DC-4601-97E1-2E9D2B1C3A89}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8B3E7CBC-11A4-4B57-BB5C-F18018D23B8B}
